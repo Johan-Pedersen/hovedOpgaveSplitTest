@@ -1,12 +1,12 @@
 package models
 
 import com.google.inject.Inject
-import models.database.GeneralDB
+import models.database.GeneralDBSplitTest
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
-class JspSplitTest @Inject() (generalDB: GeneralDB) {
+class JspSplitTest @Inject() (generalDB: GeneralDBSplitTest) {
 
   /**
     *

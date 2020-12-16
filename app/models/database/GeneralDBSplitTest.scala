@@ -20,7 +20,7 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 import scala.util.hashing.MurmurHash3
 
-class GeneralDB @Inject() (
+class GeneralDBSplitTest @Inject() (
     experiments: Experiments,
     owners: Owners,
     variants: Variants,
